@@ -22,7 +22,7 @@ function CopyableText({ text }) {
 
 function Contact() {
   return (
-    <div className="w-screen h-screen text-green-600 font-thin text-center bg-black flex justify-center">
+    <div className="w-screen h-screen text-green-600 font-thin text-centerbg-black flex justify-center">
 
       <div className="m-auto">
         <p><span className="hover:bg-green-600">Brandon </span> | <span className="hover:bg-green-600">Erick</span> | <span className="hover:bg-green-600">Bkcastro</span></p>
