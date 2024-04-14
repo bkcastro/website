@@ -47,13 +47,6 @@ function Projects() {
       tools: ["Three.js", "WebXR", "Vite", "Tailwind"],
     },
     {
-      title: "LeetMail",
-      subtitle: "LeetCode Grind Optimization",
-      about: "The LeetCode grind is real... Use this web application to set reminders via email to complete those questions! You can set a custom schedule and focus on topics you wish to learn.",
-      link: "https://leetmail.onrender.com/",
-      tools: ["Three.js", "Blender", "Node.js", "Express", "MongoDB", "Boostrap"]
-    },
-    {
       title: "Whatitis.Media",
       subtitle: "Media Agency Collaboration",
       about: "I was contracted to recreate their figma design and incorporate 3D animations.",
@@ -66,6 +59,13 @@ function Projects() {
       about: "Over the summer, I assisted in the revision of the club's website by adding new features such as a mailing list, schedule, and a 3D logo.",
       link: "https://www.santacruzai.com/",
       tools: ["ReactThreeFiber", "Blender", "React", "Next.js", "Tailwind", "Vercel"]
+    },
+    {
+      title: "LeetMail",
+      subtitle: "LeetCode Grind Optimization",
+      about: "The LeetCode grind is real... Use this web application to set reminders via email to complete those questions! You can set a custom schedule and focus on topics you wish to learn.",
+      link: "https://leetmail.onrender.com/",
+      tools: ["Three.js", "Blender", "Node.js", "Express", "MongoDB", "Boostrap"]
     },
     {
       title: "Collection of Vision",
@@ -84,7 +84,6 @@ function Projects() {
       title: "Spider Solitare",
       subtitle: "SFML card game",
       about: "During this project I learn how to handle user actions and properly sequence them. Also had fun with SFML ,developed a card making library that handles animations and interactions.",
-      link: "https://bkcastro.github.io/NFT-Collection-THREE-JS/",
       tools: ["C++", "SFML"],
     },
 
