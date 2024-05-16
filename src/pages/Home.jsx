@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { PiTiktokLogoLight } from "react-icons/pi";
+import { FaXTwitter } from "react-icons/fa6";
 import { CiLinkedin, CiInstagram } from "react-icons/ci";
 import { SiGoogledocs } from "react-icons/si";
 import { IoIosDocument } from "react-icons/io";
@@ -26,7 +27,7 @@ function Social() {
   return (
     <div className="flex justify-center gap-2 w-full">
       <a href="https://www.instagram.com/bkcastro_/" target="_blank"><CiInstagram size={"3em"} className="" /></a>
-      <a href="https://www.tiktok.com/@liljgrem" target="_blank"><PiTiktokLogoLight size={"3em"} className="" /></a>
+      <a href="https://twitter.com/lunch_number" target="_blank"><FaXTwitter size={"3em"} className="" /></a>
       <a href="https://github.com/bkcastro" target="_blank"><FaGithub size={"3em"} className="" /></a>
       <a href="https://www.linkedin.com/in/brandon-castro22/" target="_blank"><CiLinkedin size={"3em"} className="" /></a>
       <a href="https://drive.google.com/file/d/1ZocjuxDmLj-zX5D-iKOEHmXiIfEGVof0/view" target="_blank"><IoIosDocument size={"3em"} className="" /></a>
