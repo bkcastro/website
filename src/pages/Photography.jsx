@@ -23,7 +23,6 @@ function Photography() {
 
     return (
         <div>
-            <h1 className="pl-2">don't mind the mess</h1>
             <div className="bg-black text-white p-4 grid grid-cols-3 gap-4">
                 {images.map((image, index) => (
                     <div key={index} className="">
@@ -33,7 +32,7 @@ function Photography() {
                             style={{ height: 'auto', width: isBelow2K ? '50%' : '100%' }} // Adjust width based on resolution
                         />
                         <p>{image.caption}</p>
-                        <p>{index}</p>
+
                     </div>
                 ))}
             </div>
