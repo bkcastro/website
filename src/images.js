@@ -42,57 +42,46 @@ export const images = [
     },
     {
         src: "photography_webp/img_10.webp",
-
         caption: "",
     },
     {
         src: "photography_webp/img_11.webp",
-
         caption: "",
     },
     {
         src: "photography_webp/img_12.webp",
-
         caption: "",
     },
     {
         src: "photography_webp/img_13.webp",
-
         caption: "",
     },
     {
         src: "photography_webp/img_14.webp",
-
         caption: "",
     },
     {
         src: "photography_webp/img_15.webp",
-
         caption: "",
     },
     {
         src: "photography_webp/img_16.webp",
-
         caption: "",
     },
     {
         src: "photography_webp/img_17.webp",
-
         caption: "",
     },
     {
         src: "photography_webp/img_18.webp",
-
         caption: "",
     },
     {
         src: "photography_webp/img_19.webp",
-
         caption: "",
     },
     {
         src: "photography_webp/img_20.webp",
-
         caption: "",
     },
 ]

@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Projects() {
+function XRProjects() {
 
     return (<div></div>)
 }
 
-export default Projects;
+export default XRProjects;
