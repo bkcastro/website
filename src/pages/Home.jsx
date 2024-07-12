@@ -35,7 +35,7 @@ function Pages() {
   return (
     <div className="flex flex-col justify-center items-center gap-2 w-full border-1">{
       pages.map((page, i) => (
-        <Link to={page} className="text-white w-[200px] sm:w-[225px] md:w-[250px] py-2 px-4 rounded-lg text-center bg-opacity-80 bg-orange-500 hover:bg-red-500 transition duration-300"
+        <Link key={i} to={page} className="text-white w-[200px] sm:w-[225px] md:w-[250px] py-2 px-4 rounded-lg text-center bg-opacity-80 bg-orange-500 hover:bg-red-500 transition duration-300"
         >{page}</Link>
       ))
     }</div>
