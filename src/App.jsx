@@ -10,9 +10,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Photography" element={<Photography />} />
-        <Route path="/WebProjects" element={<WebProjects />} />
-        <Route path="/XRProjects" element={<XRProjects />} />
+        <Route path="/photography" element={<Photography />} />
+        <Route path="/webprojects" element={<WebProjects />} />
+        <Route path="/xrprojects" element={<XRProjects />} />
       </Routes>
     </BrowserRouter>
   );

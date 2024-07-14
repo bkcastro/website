@@ -30,7 +30,7 @@ function Icons() {
 
 // art, projects, photography 
 function Pages() {
-  let pages = ['Photography', 'Web Projects', 'XR Projects',];
+  let pages = ['photography', 'webprojects', 'xrprojects',];
 
   return (
     <div className="flex flex-col justify-center items-center gap-2 w-full border-1">{
