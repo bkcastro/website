@@ -5,7 +5,7 @@ const data = [
         title: 'xrSpells',
         link: 'https://xr-spells.vercel.app/',
         demo: 'https://www.youtube.com/embed/uosRV-sc_4I?si=j94xaVkgkMFd81Ct',
-        about: 'Here are some of the stuff I have made.',
+        about: 'Here are some of the things I have made.',
         features: [],
         tools: ['Three.js', 'Webxr']
     },
@@ -15,7 +15,7 @@ const data = [
         demo: 'https://youtube.com/embed/LmACPAzs7bE?si=98JJdoPkOBbQvhEC',
         about: 'Augmented Reality Generative Ransengan.',
         features: [
-            'Ransengan is mapped to the users palm allowing them to play around like Naruto.',
+            "Rasengan is mapped to the user's palm, allowing them to play around like Naruto.",
         ],
         tools: ['Three.js', 'WebXR'],
     }
