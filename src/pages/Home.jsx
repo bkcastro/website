@@ -14,7 +14,7 @@ function Icons() {
     { source: FaXTwitter, link: "https://x.com/lunch_number" }, // Corrected from FaXTwitter
     { source: CiLinkedin, link: "https://www.linkedin.com/in/brandon-castro22/" },
     { source: CiInstagram, link: "https://www.instagram.com/bkcastro_/" },
-    { source: IoIosDocument, link: "https://drive.google.com/file/d/1ZocjuxDmLj-zX5D-iKOEHmXiIfEGVof0/view" }
+    // { source: IoIosDocument, link: "https://drive.google.com/file/d/1ZocjuxDmLj-zX5D-iKOEHmXiIfEGVof0/view" }
   ];
 
   return (
@@ -31,12 +31,12 @@ function Icons() {
 // art, projects, photography 
 function Pages() {
   let pages = ['photography', 'webprojects', 'xrprojects',];
-
+  let names = ['Photography', 'Web Projects', 'XR Projects',];
   return (
     <div className="flex flex-col justify-center items-center gap-2 w-full border-1">{
       pages.map((page, i) => (
         <Link key={i} to={page} className="text-white w-[200px] sm:w-[225px] md:w-[250px] py-2 px-4 rounded-lg text-center bg-opacity-80 bg-orange-500 hover:bg-red-500 transition duration-300"
-        >{page}</Link>
+        >{names[i]}</Link>
       ))
     }</div>
   )
