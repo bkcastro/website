@@ -8,7 +8,7 @@ const data = [
         about: 'Web application group project on which I worked on the front page.',
         features: [
             'Efficiently displays over 10,000 bird sightings using heatmaps.',
-            'Map with tools for querying information or filing a report.',
+            'Tools for querying information or filing a report.',
         ],
         tools: ['py4web', 'Leaflet', 'SQL', 'Bulma', 'Vue.js']
     },
@@ -37,10 +37,10 @@ const data = [
         title: 'UCSC AI Club Website',
         link: 'https://www.santacruzai.com/',
         demo: 'https://www.youtube.com/embed/Vgcje4-CeL4?si=Wbac2NZ7pssqEgE6',
-        about: 'Worked on the development and delpoyment.',
+        about: 'Worked on the development and deployment.',
         features: [
             'Stay up to date with our Newsletter.',
-            'Informative timeline of the quater with resource links.',
+            'Informative timeline of the quarter with resource links.',
         ],
         tools: ['Vercel', 'React', 'RTF', 'Tailwind', 'Figma', 'Mailchimp'],
     },
@@ -59,7 +59,7 @@ const data = [
         title: 'Collection of Vision',
         link: 'https://bkcastro.github.io/NFT-Collection-THREE-JS/',
         demo: 'https://www.youtube.com/embed/KlETcUtCpQ8?si=iToW5Kk5WegxS6tV',
-        about: 'Fist three.js project.',
+        about: 'First three.js project.',
         features: [
             'Each eyeball tracks the users mouse.',
         ],
