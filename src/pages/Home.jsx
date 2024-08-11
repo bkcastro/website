@@ -30,8 +30,8 @@ function Icons() {
 
 // art, projects, photography 
 function Pages() {
-  let pages = ['photography', 'webprojects', 'xrprojects',];
-  let names = ['Photography', 'Web Projects', 'XR Projects',];
+  let pages = ['timemachine', 'webprojects', 'xrprojects',];
+  let names = ['Time Machine ', 'Web Projects', 'XR Projects',];
   return (
     <div className="flex flex-col justify-center items-center gap-2 w-full border-1">{
       pages.map((page, i) => (

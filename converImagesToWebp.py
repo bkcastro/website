@@ -55,6 +55,6 @@ def convert_images_to_webp(directory):
 
 if __name__ == "__main__":
     # Adjust the source directory path as needed
-    source_directory = r"C:\Users\c1bra\Documents\GitHub\website\public\photography_jpg"
+    source_directory = r"C:\Users\c1bra\Documents\GitHub\website\public\photography"
     convert_images_to_webp(source_directory)
     print("Conversion complete.")

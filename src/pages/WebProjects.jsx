@@ -5,7 +5,7 @@ const data = [
         title: 'Bird Watching App',
         link: '',
         demo: 'https://www.youtube.com/embed/-0sv-UKEoFk?si=IG17CorFh_5em6b1',
-        about: 'Web application group project on which I worked on the front page.',
+        about: 'Web app for my web app class with web app tools. ',
         features: [
             'Efficiently displays over 10,000 bird sightings using heatmaps.',
             'Tools for querying information or filing a report.',
@@ -16,22 +16,25 @@ const data = [
         title: "EasyRoute",
         link: '',
         demo: 'https://www.youtube.com/embed/ese-omLCWaA?si=7ktnRAE706tNvcNy',
-        about: 'Helps navigate the complex terrain of UCSC campus.',
+        about: 'Helps navigate the complex terrain at UCSC.',
         features: [
             'Routing between buildings is powered by OpenStreetService.',
             'Provides informative details of the route, such as directions, estimated time of arrival, and elevation data.',
+            'Terrain is rendering using three-geo library.',
+            'Interactive map is emplemented with vanilla javascript and three.js.'
         ],
-        tools: ['Three.js', 'OpenStreetService', 'OpenStreetMap', 'Mapbox'],
+        tools: ['Three.js', 'three-geo', 'OpenStreetService', 'OpenStreetMap', 'Mapbox'],
     },
     {
         title: 'Whatitis.Media Website',
         link: 'https://whatitis-media.vercel.app/',
         demo: 'https://www.youtube.com/embed/yAPijW3-VdA?si=S_NNLH_qimsh_ccg',
-        about: 'Contracted to implement a website and create interactive art.',
+        about: 'Contracted to implement and create interactive art.',
         features: [
-            'Multi-page website displaying information about the company.'
+            'Multi-page website displaying information about the company.',
+            'Interactive art pieces were modeled with blender and implemented with RTF.'
         ],
-        tools: ['Vercel', 'React', 'RTF', 'Tailwind', 'Figma'],
+        tools: ['Vercel', 'React', 'React-Three-Fiber', 'Tailwind', 'Figma', 'Blender'],
     },
     {
         title: 'UCSC AI Club Website',
@@ -42,7 +45,7 @@ const data = [
             'Stay up to date with our Newsletter.',
             'Informative timeline of the quarter with resource links.',
         ],
-        tools: ['Vercel', 'React', 'RTF', 'Tailwind', 'Figma', 'Mailchimp'],
+        tools: ['Vercel', 'React', 'React-Three-Fiber', 'Tailwind', 'Figma', 'Mailchimp', 'Blender'],
     },
     {
         title: 'LeetMail',
@@ -53,7 +56,7 @@ const data = [
             'Tailor questions by difficulty and topic.',
             'Receive questions via email on the days you schedule. ',
         ],
-        tools: ['Node.js', 'Express', 'MongoDB', 'Firebase', 'Bootstrap'],
+        tools: ['Node.js', 'Express', 'MongoDB', 'Firebase', 'Bootstrap', 'Blender'],
     },
     {
         title: 'Collection of Vision',
@@ -105,7 +108,9 @@ const ProjectCard = ({ project }) => {
         return (
             <div className='flex flex-wrap gap-2 justify-start'>
                 {project.tools.map((tool, index) => (
-                    <div key={index} className="w-fit">{tool}</div>
+                    index < (project.tools.length - 1) ? (
+                        <div key={index} className="w-fit">{tool},</div>
+                    ) : <div key={index} className="w-fit">{tool}</div>
                 ))}
             </div>
         );
@@ -121,7 +126,7 @@ const ProjectCard = ({ project }) => {
                     <li key={index}>{feature}</li>
                 ))}
             </ul>
-            <div className="font-semibold mt-4">Tools Used:</div>
+            <div className="font-semibold mt-4">Tools:</div>
             {renderTools()}
             {renderDemoVideo()}
         </div>
