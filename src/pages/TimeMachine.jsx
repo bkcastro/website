@@ -12,7 +12,7 @@ function TimeMachine() {
                     <div key={index} className="">
                         <img
                             src={`photography_webp/img_${index}.webp`}
-                            alt={`Thumbnail for image ${index}`}
+                            alt={`deleted this image because people like to judge/assume what they don't know`}
                             style={{ height: 'auto', width: '100%', margin: 'auto' }} // Adjust width based on resolution
                         />
                         {/* <p>{index}</p> */}
