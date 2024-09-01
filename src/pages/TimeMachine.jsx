@@ -11,8 +11,7 @@ function TimeMachine() {
                 {[...Array(images)].map((_, index) => (
                     <div key={index} className="">
                         <img
-                            src={`photography_webp/img_${index}.webp`}
-                            alt={`deleted this image because people like to judge/assume what they don't know`}
+                            src={`photography_webp/${1+index}.webp`}
                             style={{ height: 'auto', width: '100%', margin: 'auto' }} // Adjust width based on resolution
                         />
                         {/* <p>{index}</p> */}
