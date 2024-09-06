@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { constants } from "buffer";
 
 function TimeMachine() {
-    const images = 75;
+    const images = 62;
 
     return (
         <div className="p-4 bg-zinc-800 flex flex-col gap-">
