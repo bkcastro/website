@@ -20,7 +20,7 @@ const data = [
         about: 'Helps navigate the complex terrain at UCSC.',
         features: [
             'Routing between buildings is powered by OpenStreetService.',
-            'Provides informative details of the route, such as directions, estimated time of arrival, and elevation data.',
+            'Provides informative details on routes, such as directions, estimated time of arrival, and elevation data.',
             'Terrain is rendering using three-geo library.',
             'Interactive map is emplemented with vanilla javascript and three.js.'
         ],
@@ -43,7 +43,7 @@ const data = [
         demo: 'https://www.youtube.com/embed/Vgcje4-CeL4?si=Wbac2NZ7pssqEgE6',
         about: 'Worked on the development and deployment.',
         features: [
-            'Stay up to date with our Newsletter.',
+            'Never miss a meeting with our Newsletter.',
             'Informative timeline with resource links.',
         ],
         tools: ['React', 'React-Three-Fiber', 'Tailwind', 'Figma', 'Mailchimp', 'Blender'],
@@ -55,6 +55,7 @@ const data = [
         about: 'First three.js project.',
         features: [
             'Each eyeball tracks the users mouse.',
+            'First three.js project.'
         ],
         tools: ['Three.js'],
     }

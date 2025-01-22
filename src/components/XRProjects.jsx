@@ -29,11 +29,11 @@ function XRProjects() {
     return (
         <div>
             <h1 className='text-center text-xl mt-2 mb-4'>XR Projects</h1>
-            <div className="text-neutral-300 grid grid-cols-1 lg:grid-cols-4 gap-2 justify-center w-fit mx-auto">
+            <div className="text-neutral-300 grid grid-cols-1 lg:grid-cols-2 gap-2 justify-center w-fit mx-auto">
             {data.map((project, index) => (
                 <ProjectCard key={index} project={project} />
             ))}
-        </div>
+            </div>
         </div>
     )
 }
