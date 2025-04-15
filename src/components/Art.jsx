@@ -15,7 +15,7 @@ export default function Art() {
                 <li className="hover:text-red-500"><a href="https://genuary7.vercel.app/" target="_blank">my first pentagram</a></li>
                 <li className="hover:text-red-500"><a href="https://webxr6.vercel.app/" target="_blank">this right here woud kill someone back in the day</a></li>
                 <li className="hover:text-red-500"><a href='https://www.instagram.com/lilgremlin_x/' target="_blank">catch me with a camera here: @liljgremin_x</a></li>
-                <li className="hover:text-red-500"><a href="https://bkcastro.github.io/LASKC/" target="_blank">LA:BKC i was born with fangs and my eyes burn during the day</a></li>
+                <li className="hover:text-red-500"><a href="https://bkcastro.github.io/LASKC/" target="_blank">taking pictures with a little metal box... a time machine?</a></li>
             </ul>
 
             <div className="h-[100px]"></div>

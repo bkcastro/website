@@ -33,7 +33,6 @@ function Icons() {
   );
 }
 
-
 function Home() {
   return (
     <div className="bg-[#121212] text-white w-screen outer flex items-center justify-center">
@@ -42,8 +41,7 @@ function Home() {
           <img src={me} alt="logo" className="logo w-[100px] rounded-lg" />
           <div className='text-left flex flex-col justify-evenly h-[100px] '>
             <h1 className='text-xl'>Brandon Castro</h1>
-            <p className='text-gray-300'>xr/web/game dev</p>
-            <p>Vampire with computer</p>
+            <p className='text-gray-300'>creator of things</p>
           </div>
         </header>
         <Icons />

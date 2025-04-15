@@ -6,57 +6,28 @@ const data = [
         title: 'LeetMail',
         link: 'https://leetmail.onrender.com/',
         demo: 'https://www.youtube.com/embed/UbPjxwSgKc4?si=wSYNiL4Rj9ocRYuq',
-        about: 'Personalized LeetCode question scheduler.',
-        features: [
-            'Tailor questions by difficulty and topic.',
-            'Receive questions via email on the days you schedule. ',
-        ],
+        about: 'Tool to help with leetcode grid.',
         tools: ['Node.js', 'MongoDB', 'Firebase', 'Bootstrap', 'Blender'],
     },
     {
         title: "EasyRoute",
         link: '',
         demo: 'https://www.youtube.com/embed/ese-omLCWaA?si=7ktnRAE706tNvcNy',
-        about: 'Helps navigate the complex terrain at UCSC.',
-        features: [
-            'Routing between buildings is powered by OpenStreetService.',
-            'Provides informative details on routes, such as directions, estimated time of arrival, and elevation data.',
-            'Terrain is rendering using three-geo library.',
-            'Interactive map is emplemented with vanilla javascript and three.js.'
-        ],
+        about: 'Interactive 3D map of UCSC.',
         tools: ['Three.js', 'three-geo', 'OpenStreetService', 'OpenStreetMap', 'Mapbox'],
-    },
-    {
-        title: 'Whatitis.Media Website',
-        link: 'https://whatitis-media.vercel.app/',
-        demo: 'https://www.youtube.com/embed/yAPijW3-VdA?si=S_NNLH_qimsh_ccg',
-        about: 'Contracted to implement and create interactive art.',
-        features: [
-            'Multi-page website displaying information about the company.',
-            'Interactive art pieces were modeled with blender and implemented with RTF.'
-        ],
-        tools: ['React', 'React-Three-Fiber', 'Tailwind', 'Figma', 'Blender'],
     },
     {
         title: 'UCSC AI Club Website',
         link: 'https://www.santacruzai.com/',
         demo: 'https://www.youtube.com/embed/Vgcje4-CeL4?si=Wbac2NZ7pssqEgE6',
-        about: 'Worked on the development and deployment.',
-        features: [
-            'Never miss a meeting with our Newsletter.',
-            'Informative timeline with resource links.',
-        ],
+        about: '',
         tools: ['React', 'React-Three-Fiber', 'Tailwind', 'Figma', 'Mailchimp', 'Blender'],
     },
     {
         title: 'Collection of Vision',
         link: 'https://bkcastro.github.io/NFT-Collection-THREE-JS/',
         demo: 'https://www.youtube.com/embed/KlETcUtCpQ8?si=iToW5Kk5WegxS6tV',
-        about: 'First three.js project.',
-        features: [
-            'Each eyeball tracks the users mouse.',
-            'First three.js project.'
-        ],
+        about: '',
         tools: ['Three.js'],
     }
 ]
