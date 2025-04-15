@@ -33,10 +33,7 @@ export default function ProjectCard ({ project }) {
     return (
         <div className="max-w-sm rounded overflow-hidden shadow-lg h-fit">
             {renderDemoVideo()}
-            {project.link && <a href={project.link} className="text-red-700 hover:text-blue-800 underline">Link</a>}
-            <p>project.?about</p>
-            <div className="font-semibold mt-4">Tools:</div>
-            {renderTools()} 
+            {/* {renderTools()}  */}
         </div>
     );
 };
