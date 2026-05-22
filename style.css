@@ -44,23 +44,20 @@ a:active { color: var(--link-color); }
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	font-size: medium;
 }
 
 .about {
-	font-size: medium;
 	max-width: 350px;
 }
 
-.socials {
+.links {
+	font-size: large;
+	padding-top: 15px;
 	display: flex; 
 	flex-direction: row;
 	justify-content: center;
 	gap: 10px;
-}
-
-.socials {
-	padding: 5px;
-	font-size: large;
 }
 
 .contact { 
