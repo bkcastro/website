@@ -12,9 +12,100 @@
 <body>
 
 	<div class="main">
-		<div class="center">
-		</div>
+		<!-- <div class="portfolio_linker">
+			<a>Lyd.io</a>
+			<a>XRSpellCaster</a>
+			<a>XRBrickView</a>
+			<a>AR/VR Experiences</a>
+			<a>Resume</a>
+		</div> -->
+		<div class="portfolio">
+			<h1 class="lyd">Lyd.io</h1>
+		
+			<p>Tech: Three.js | WebXR | Node.js</p>
+			<br>
+			<p>Lyd.io is a spatial video social media platform utilizing 360&deg; and 180&deg; stereoscopic video. As a Software Engineer and UX/UI Designer, I designed and implemented the client application for the Meta Quest 3 and Apple Vision Pro. Additionally, I optimized the feed system's display algorithm and extended cross-platform compatibility across major XR devices and browsers, including Safari, Chrome, and Firefox.</p>
+
+			<h2>UX</h2>
+
+			<p>__1 image of hand tracking and 1 of VR Controller__</p>
+
+			<h3>Hand tracking or VR controllers</h3>
+
+			<p>I designed and implemented an input-agnostic system allowing users to interact with the application via hand tracking or traditional VR controllers. This ensures the application remains future-proof and compatible with contemporary, controller-free spatial devices like the Apple Vision Pro.</p>
+
+			<h3>Gestures</h3>
+
+			<p>__sample gif of the gesture system__</p>
+			
+			<ul>
+				<li>Flick up to move up the feed.</li>
+				<li>Flick down to move down the feed.</li>
+				<li>Flick forward to open the media UI.</li>
+				<li>Flick backwards to close the media UI.</li>
+				<li>Flick to the right to enter the content creators spatial environment.</li>
+				<li>Flick to the left to enter the users spatial environment.</li>
+			</ul>
+
+			<p>These intuitive gestures allow users to navigate content instantly. Extensive user testing and iterative development were required to fine-tune the gesture thresholds and seamlessly integrate them into the application.</p>
+			<br>
+			<p>Architectural robustness was a core philosophy for this spatial application. Unlike traditional 2D interfaces, 3D spatial environments present infinite layout and interaction possibilities. Because user preferences vary wildly in spatial computing, our system was built to be highly modular, allowing the team to iterate rapidly without architectural limitations.</p>
+			<br>
+			<p><b>Note</b>: The system includes a UI-based alternative that completely circumvents gestures, catering to users who prefer traditional menus.</p>
+
+			<h2>UI</h2>
+
+			<p>__3-4 sample images of the UI__</p>
+
+			<h3>Content + media controls</h3>
+
+			<p>The core of any social media application is its content delivery. Through rigorous trial and error, I designed an elegant user interface that allows intuitive spatial interaction. To minimize cognitive load, I established a clear separation of intent across components: the bottom grid pertains strictly to system-wide interactions (exiting, changing environments, searching), keeping the main viewing space uncluttered.</p>
+
+			<h3>Environments</h3>
+
+			<p>__3 pictures of each environment__</p>
+			<br>	
+			<p>The UI dynamically adapts across three distinct virtual environments:</p>
+		
+			<ul>
+				<li> <b>The User Environment</b>: Access to personal data and saved content.</li>
+				<li> <b>The Feed Environment</b>: Immersive streaming of stereoscopic videos</li>
+				<li> <b>The Creator Environment</b>: Dedicated space for content porfolio</li>
+			</ul>
+
+			<p>By deliberately separating content from environmental space, the UI architecture remains clean and context-aware.</p>
+
+			<h2>Internal Developer Tools</h2>
+
+			<p>To streamline design, implementation, and integration, I independently developed a suite of internal tools. This proactive initiative saved the engineering team countless hours of debugging and deployment time.</p>
+
+			<h3>Spatial terminal</h3>
+
+			<p>__picture of the spatial terminal__</p>
+			<br>
+			<p>Debugging inside a WebXR session is notoriously difficult because standard browser developer tools (like Chrome DevTools) are inaccessible while wearing a headset. This tool overlays a virtual console directly into the spatial environment, allowing developers to view console.log messages and errors in real-time during live testing.</p>
+
+			<h3>Space divisor</h3>
+
+			<p>__picture of the spaces divisor__</p>
+			<br>
+			<p>Spatial UX layout relies on relative distance from the user, traditionally categorized into three zones:</p>
+				
+			<ul>
+				<li> <b>Intimate Space</b>: within 1 foot.</li>
+				<li> <b>Personal Space</b>: 1.5 to 4 feet</li>
+				<li> <b>Social Space</b>: 4 feet or more.</li>
+			</ul>
+
+			<p>To visually map these boundaries, I built a tool using color-coded geometric zones. This allowed our design team to holistically evaluate UI placement and maximize ergonomic comfort.</p>
+
+			<h3>Headset-free simulator</h3>
+
+			<p>__picture of the VR UI rendered on the desktop__</p>
+			<br>
+			<p>Constantly donning and removing a VR headset to test minor code changes introduces massive friction into the development cycle. To solve this, I built a desktop simulator that renders the 3D spatial UI directly in a standard 2D browser window. It maps mouse clicks to spatial gaze and hand-tracking triggers, and includes a panning feature to simulate different head perspectives, drastically accelerating our UI testing cycles.</p>
+			<br>
+		</div>	
 	</div>
 </body>
-<br><br>
 </html>
