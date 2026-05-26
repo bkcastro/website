@@ -47,6 +47,7 @@ a:active { color: var(--link-color); }
     box-sizing: border-box;
 	color: var(--primary-color);
 	font-size: medium;
+	text-align: center;
 }
 
 .about {
