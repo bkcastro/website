@@ -24,10 +24,7 @@ body {
 }
 
 p { padding: 0 0; margin: 0 0; }
-a:link { color: var(--link-color); }
-a:visited { color: var(--link-color); }
-a:hover { color: var(--link-color); }
-a:active { color: var(--link-color); }
+
 
 .main {
     top: 0;
@@ -63,6 +60,11 @@ a:active { color: var(--link-color); }
 	gap: 10px;
 }
 
+.links a:link { color: var(--link-color); }
+.links a:visited { color: var(--link-color); }
+.links a:hover { color: var(--link-color); }
+.links a:active { color: var(--link-color); }
+
 .contact { 
 	gap: 10px;
 	color: var(--border-color);
@@ -94,9 +96,13 @@ a:active { color: var(--link-color); }
 }
 
 .lyd { color: #fc92f4; }
+.xrspellcaster { color: #e600ff; }
+.xrbrickview { color: #ff0011; }
 
-.portfolio_linker {
-	position: relative: 
-	left: 0; 
-	top: 0; 
+.portfolio_links {
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
 }
+
