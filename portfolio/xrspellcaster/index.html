@@ -13,7 +13,133 @@
 
 	<div class="main">
 		<div class="portfolio">
-			<h1 class="xrspellcaster">XRSpellCaster</h1>
+			<a href="../index.html">portfolio</a>
+			<br>
+			<br>
+			<h1 class="xrspellcaster" id="xrspellcaster">XRSpellCaster</h1>
+			<br>
+			<p>Tech: Three.js | WebXR</p>
+			<p>XRSpellCaster is a virtual reality point and shoot arcade like
+			game.</p>
+			<p>I created this AR game to give any ordinary human the ability to cast
+			spells and fight off monsters.</p>
+			<h2 id="game">Game</h2>
+			<p><strong>gif of the game in action</strong></p>
+			<h3 id="theme">Theme</h3>
+			<p>The player is banished to another universe called
+			<strong>SpellCaster</strong>, magic runs free and humans are only
+			limited by their imagination. But there is a catch, evil monsters built
+			from negative human energy manifest in physical form attacking those who
+			are in search for freedom and truth.</p>
+			<br>
+			<p>The player is task to survive for as long as possible until they find
+			a way to escape. Every human in the <strong>SpellCaster</strong>
+			universe has the ability to use magic rendering them a <strong>spell
+			caster</strong>.</p>
+			<br>
+			<p>Every player has access to four spells to fight off monsters. The
+			player wins after defeating 100 monsters, a portal will open up allowed
+			the user to exit the game or continue playing but with a harder
+			difficulty.</p>
+			<h3 id="spells">Spells</h3>
+			<p><strong>images of all of the spells</strong></p>
+			<p>It was important to set a limit on the number of spells. I found that
+			four provided the player with enough interesting options to defeat
+			enemies and made implementing reasonable.</p>
+			<ol type="1">
+			<li>Electric blast.</li>
+			<li>Electric ball.</li>
+			<li>Spikes.</li>
+			<li>Slash.</li>
+			</ol>
+			<p>The spell casting systems works like an entity spawner. I created a
+			base class for all spells called Spell. This base class hinds away all
+			of the details needed to create the effects and render them on the
+			screen. Paired with a spawner class called Spell Caster. This class
+			exposes a method that takes in a character object and the name of the
+			spell to cast. If the character object has enough mana to cast the spell
+			then the spell is created and spawn in the world from.</p>
+			<br>
+			<p>The damage system works by grouping spells by character type. Enemies
+			can’t cause damage to themself or other enemies, and a player can’t
+			cause damage to himself. So the system processes the spell by checking
+			if it intersects with a hittable character if so then damage is applied
+			to them.</p>
+			<h3 id="enemy">Enemy</h3>
+			<p><strong>gif of the evil eye</strong></p>
+			<p>There is only one type of enemy in this game and it is called the
+			Evil Eye.</p>
+			<br>
+			<p>The reason for this limitation was to keep the game simple.</p>
+			<br>
+			<p>As the player progresses through the game the spawn rate of the
+			enemies starts to increase making it a challenge to survive.</p>
+			<h4 id="evil-eyes">1000 Evil Eyes</h4>
+			<p><strong>picture of 1000 evil eyes</strong></p>
+			<p>I was able to optimize the rendering of this enemy by using
+			instancing, allow me to spawn huge number of enemies without sacrificing
+			performance. Although 1000 eyes it too extreme for any enjoyable
+			experience. It does allow me to reuse the code for future projects.</p>
+			<h2 id="ui">UI</h2>
+			<p>The UI system is the most interesting.</p>
+			<p>I didn’t want to bother the player with floating screens and text. It
+			was important to keep it simple.</p>
+			<h3 id="grimoire">Grimoire</h3>
+			<p><strong>picture of the grimoire</strong></p>
+			<p>The perfect UI to manage spells was in my opinion was a grimoire,
+			which ended up being a staple to the game.</p>
+			<br>
+			<p>The grimoire is the main UI the player has to navigate the game and
+			switch between spells. Before starting the game the player is ask to
+			choose which hand will hold the grimoire and which hand will cast
+			spells.</p>
+			<h2 id="what-i-learned">What I learned</h2>
+			<p>Here are a couple of lessons I learned along the way that have made
+			me a better person and programmer.</p>
+			<h3 id="learning-how-to-use-structure-and-order">Learning how to use
+			structure and order</h3>
+			<p>Working on this project was not easy, at the time I was also working
+			as a software engineer. The time dedicated to XRSpellCaster was whatever
+			time was left in the day, which was often unstructured and
+			unpredictable. I’ve noticed that I needed a change, that is when I
+			decided to spend some time learning how to structure and order my time.
+			So that progress does not become a will powers issues but a systems
+			issue.</p>
+			<br>
+			<p>I incorporated a schedule that make it easier to work on
+			XRSpellCaster. Within two weeks it became a habit and the stress
+			dissipated giving me the right head space to be creative and
+			focused.</p>
+			<br>
+			<p>Not only did I use a schedule I also incorporated a task managing
+			system similar to jira for solo developers. This helped me create
+			effective plans and achieve my goals. This system uses three separate
+			categories day, week, and month. First you set the goals or task you
+			want completed by the end of the month, then you plan what task need to
+			be done each week. Finally each day you review those task and goals and
+			formulate a plan to carry out before you start to work. This insures
+			that solo developers properly plan and manage their time.</p>
+			<h3 id="dont-be-afraid-to-ask-for-help">Don’t be afraid to ask for
+			help</h3>
+			<p>There was no shortage of problems I ran into along the way. Luckily I
+			always had the good habit of asking for help. The WebXR community is a
+			small but passionate group of people who love lending out a hand.
+			Interacting with this community showed me the power a group of people
+			with similar interest have.</p>
+			<h3 id="mindset">Mindset</h3>
+			<p>Having a proactive mindset is essential for success in any endeavour.
+			Working on this game taught me valuable lessons that go beyond the realm
+			of programming. Here are a few lessons I learned.</p>
+			<ol type="1">
+			<li>Ideas are plentiful, pick one and stick with it to the end.</li>
+			<li>It is not about will power it is about discipline and structure.
+			<ul>
+			<li>Don’t shoot for the trees when aiming for the moon.</li>
+			</ul></li>
+			<li>If you can’t describe your idea in one sentence then it is not a
+			good idea.</li>
+			<li>Keep it stupid simple.</li>
+			</ol>
 		</div>
 	</div>
 </body>
