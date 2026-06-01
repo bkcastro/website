@@ -18,13 +18,15 @@
 			<br>
 			<h1 class="lyd">Lyd.io</h1>
 			<br>	
-			<p><b>Stack:</b> Three.js | WebXR | Node.js</p>
+			<p><b>Stack:</b> Three.js | WebXR | Node.js | Vue.js</p>
 			<br>
-			<p>Lyd.io is a spatial video social media platform utilizing 360&deg; and 180&deg; stereoscopic video. As a Software Engineer and UX/UI Designer, I designed and implemented the client application for the Meta Quest 3 and Apple Vision Pro. Additionally, I optimized the feed system's display algorithm and extended cross-platform compatibility across major XR devices and browsers, including Safari, Chrome, and Firefox.</p>
+			<p>Lyd.io is a spatial video social media platform utilizing 360&deg; and 180&deg; stereoscopic video. As a Software Engineer and UX/UI Designer, I designed and implemented the client application for the Meta Quest 3 device. Additionally, I optimized the feed system's display algorithm and extended cross-platform compatibility across major XR devices and browsers, including Safari, Chrome, and Firefox.</p>
 
 			<h2>UX</h2>
-
-			<p>__1 image of hand tracking and 1 of VR Controller__</p>
+			
+			<div class="video-container">
+				<iframe src="https://www.youtube.com/embed/k84trWA5zUw" allowfullscreen></iframe>
+			</div>
 
 			<h3>Hand tracking or VR controllers</h3>
 
@@ -32,8 +34,10 @@
 
 			<h3>Gestures</h3>
 
-			<p>__sample gif of the gesture system__</p>
-			
+			<div class="video-container">
+				<iframe src="https://youtube.com/embed/2G1MOXF3FZ4" allowfullscreen></iframe>
+			</div>
+
 			<ul>
 				<li>Flick up to move up the feed.</li>
 				<li>Flick down to move down the feed.</li>
@@ -50,8 +54,12 @@
 			<p><b>Note</b>: The system includes a UI-based alternative that completely circumvents gestures, catering to users who prefer traditional menus.</p>
 
 			<h2>UI</h2>
-
-			<p>__3-4 sample images of the UI__</p>
+			
+			<div class="image-container">
+				<img src="./public/UI_1.png" alt="UI sample image one."></img>
+				<img src="./public/UI_3.png" alt="UI sample image three."></img>
+				<img src="./public/UI_4.png" alt="UI sample image four."></img>
+			</div>
 
 			<h3>Content + media controls</h3>
 
@@ -59,7 +67,6 @@
 
 			<h3>Environments</h3>
 
-			<p>__3 pictures of each environment__</p>
 			<br>	
 			<p>The UI dynamically adapts across three distinct virtual environments:</p>
 		
@@ -77,13 +84,15 @@
 
 			<h3>Spatial terminal</h3>
 
-			<p>__picture of the spatial terminal__</p>
+			<div class="video-container">
+				<iframe src="https://youtube.com/embed/e-PytT60onA"></iframe>
+			</div>
+
 			<br>
 			<p>Debugging inside a WebXR session is notoriously difficult because standard browser developer tools (like Chrome DevTools) are inaccessible while wearing a headset. This tool overlays a virtual console directly into the spatial environment, allowing developers to view console.log messages and errors in real-time during live testing.</p>
 
 			<h3>Space divisor</h3>
 
-			<p>__picture of the spaces divisor__</p>
 			<br>
 			<p>Spatial UX layout relies on relative distance from the user, traditionally categorized into three zones:</p>
 				
@@ -96,8 +105,11 @@
 			<p>To visually map these boundaries, I built a tool using color-coded geometric zones. This allowed our design team to holistically evaluate UI placement and maximize ergonomic comfort.</p>
 
 			<h3>Headset-free simulator</h3>
-
-			<p>__picture of the VR UI rendered on the desktop__</p>
+			
+			<div class="video-container">
+				<iframe src="https://www.youtube.com/embed/dNjE8AoNpqM" allowfullscreen></iframe>
+			</div>
+			
 			<br>
 			<p>Constantly donning and removing a VR headset to test minor code changes introduces massive friction into the development cycle. To solve this, I built a desktop simulator that renders the 3D spatial UI directly in a standard 2D browser window. It maps mouse clicks to spatial gaze and hand-tracking triggers, and includes a panning feature to simulate different head perspectives, drastically accelerating our UI testing cycles.</p>
 			<br>
