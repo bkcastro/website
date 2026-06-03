@@ -7,6 +7,9 @@
 	--header-color: #ededed; 
 	--text-color: #ededed;
 	--link-color: #02f22a;
+	--link-hover-color: #00bf20;
+	--link-visited-color: #00cf79;
+	--link-active-color: #00ff2a;
 	--lyd-color: #f399ff;
 	--xrspellcaster-color: #b60dff;
 	--xrbrickview-color: #ff0f2b;
@@ -60,18 +63,10 @@ h1 { padding: 0; margin: 0; }
 	max-width: 400px;
 }
 
-.links {
-	padding-top: 15px;
-	display: flex; 
-	flex-direction: row;
-	justify-content: center;
-	gap: 10px;
-}
-
 a:link { color: var(--link-color); }
-a:visited { color: var(--link-color); }
-a:hover { color: var(--link-color); }
-a:active { color: var(--link-color); }
+a:visited { color: var(--link-visited-color); }
+a:hover { color: var(--link-hover-color); }
+a:active { color: var(--link-active-color); }
 
 .links { 
 	padding: 0;
@@ -81,6 +76,17 @@ a:active { color: var(--link-color); }
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 300px;
+}
+
+.digital_garden_links { 
+	padding: 0;
+	margin: 0;
+	gap: 10px;
+	column-gap: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 1000px;
 }
 
 .card {
@@ -93,14 +99,14 @@ a:active { color: var(--link-color); }
 	margin-bottom: 25px;
 }
 
-.portfolio_links {
-	padding: 10px;
+.card h1 {
+	padding-bottom: 10px;
+}
+
+.portfolio_container {
 	display: block; 
-	flex-direction: column;
-	justify-content: center;
-	gap: 20px;
 	height: 100vh;
-	max-width: 940px;
+	width: 100%;	
 	overflow: auto;
 	scrollbar-width: none;
 	-ms-overflow-style: none;
@@ -117,6 +123,14 @@ a:active { color: var(--link-color); }
 		black 99%, 
 		transparent 100%
 	);flow-y: scroll;
+}
+.portfolio_flex {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
 }
 
 .portfolio {
